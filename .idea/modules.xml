@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BookManager/BookManager.iml" filepath="$PROJECT_DIR$/BookManager/BookManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/java01/java01.iml" filepath="$PROJECT_DIR$/java01/java01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java02/java02.iml" filepath="$PROJECT_DIR$/java02/java02.iml" />
       <module fileurl="file://$PROJECT_DIR$/javastudy.iml" filepath="$PROJECT_DIR$/javastudy.iml" />
     </modules>
   </component>
