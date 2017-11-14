@@ -4,9 +4,13 @@
  */
 public class demo1 {
 
+    /**
+     *
+     * @param a
+     * @param b
+     */
     public static void add(int a, int b) {
-        a = 1;
-        b = 2;
+
         System.out.println("a:" + a + "\nb:" + b);
     }
 

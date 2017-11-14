@@ -1,0 +1,9 @@
+1、final类：不允许扩展的类
+
+2、目的：确保他们不会再子类中改变语义
+    String：如果有一个String引用，引用的一定是一个String对象
+
+3、instanceof运算符
+
+    引用类型变量 instanceof 类型
+        前面的对象是否是后面的类

@@ -1,0 +1,25 @@
+Throwable
+
+    Error
+
+    Exception
+
+        IOException
+
+        RunTimeException
+
+所有的异常都是由Throwable继承而来，但在下一层立即分解为两个分支：
+
+    Error类结构描述了java运行时系统内部错误和资源耗尽错误
+不应该抛出这种异常
+
+    由程序错误导致的异常属于RunTimeException
+
+RunTimeException：
+    错误的类型转换
+    数组越界
+    空指针
+
+
+“如果出现RunTimeException，一定是你的问题”
+

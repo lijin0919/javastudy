@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AWT/AWT.iml" filepath="$PROJECT_DIR$/AWT/AWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/BookManager/BookManager.iml" filepath="$PROJECT_DIR$/BookManager/BookManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarManager/CarManager.iml" filepath="$PROJECT_DIR$/CarManager/CarManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/FoodManager/FoodManager.iml" filepath="$PROJECT_DIR$/FoodManager/FoodManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Swing/Swing.iml" filepath="$PROJECT_DIR$/Swing/Swing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zoo/Zoo.iml" filepath="$PROJECT_DIR$/Zoo/Zoo.iml" />
       <module fileurl="file://$PROJECT_DIR$/java01/java01.iml" filepath="$PROJECT_DIR$/java01/java01.iml" />
       <module fileurl="file://$PROJECT_DIR$/java02/java02.iml" filepath="$PROJECT_DIR$/java02/java02.iml" />
       <module fileurl="file://$PROJECT_DIR$/java03/java03.iml" filepath="$PROJECT_DIR$/java03/java03.iml" />
       <module fileurl="file://$PROJECT_DIR$/java04/java04.iml" filepath="$PROJECT_DIR$/java04/java04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java05/java05.iml" filepath="$PROJECT_DIR$/java05/java05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java06/java06.iml" filepath="$PROJECT_DIR$/java06/java06.iml" />
       <module fileurl="file://$PROJECT_DIR$/javastudy.iml" filepath="$PROJECT_DIR$/javastudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/接口/接口.iml" filepath="$PROJECT_DIR$/接口/接口.iml" />
+      <module fileurl="file://$PROJECT_DIR$/枚举/枚举.iml" filepath="$PROJECT_DIR$/枚举/枚举.iml" />
+      <module fileurl="file://$PROJECT_DIR$/泛型/泛型.iml" filepath="$PROJECT_DIR$/泛型/泛型.iml" />
     </modules>
   </component>
 </project>
