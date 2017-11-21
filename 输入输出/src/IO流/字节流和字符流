@@ -1,0 +1,5 @@
+InputStream
+1、int read():从输入流中读取单个字节
+2、int read(byte[] b):从输入流中读取b.length个字节数据，存储在数组b中
+3、int read(byte[] b,int off,int len):从输入流中最多读取len个字节的数据，
+并将其存储在数组b中，从数组off位置开始

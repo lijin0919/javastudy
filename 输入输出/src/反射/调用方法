@@ -1,0 +1,11 @@
+当获得某个类对应的Class对象后，就可以通过该Class对象的getMethods()方法或这
+getMethod()方法来获取全部方法或指定方法
+
+这两个方法的返回值是Method数组，或者Method对象
+
+每个Method对象对应一个方法，
+
+Object invoke(Object obj,Object...args)
+obj执行该方法的主调，后面的args是执行该方法时传入的该方法的参数
+
+

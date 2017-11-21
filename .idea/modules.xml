@@ -18,12 +18,14 @@
       <module fileurl="file://$PROJECT_DIR$/javastudy.iml" filepath="$PROJECT_DIR$/javastudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/包装类/包装类.iml" filepath="$PROJECT_DIR$/包装类/包装类.iml" />
       <module fileurl="file://$PROJECT_DIR$/基础类库/基础类库.iml" filepath="$PROJECT_DIR$/基础类库/基础类库.iml" />
+      <module fileurl="file://$PROJECT_DIR$/多线程/多线程.iml" filepath="$PROJECT_DIR$/多线程/多线程.iml" />
       <module fileurl="file://$PROJECT_DIR$/多重循环/多重循环.iml" filepath="$PROJECT_DIR$/多重循环/多重循环.iml" />
       <module fileurl="file://$PROJECT_DIR$/接口/接口.iml" filepath="$PROJECT_DIR$/接口/接口.iml" />
       <module fileurl="file://$PROJECT_DIR$/枚举/枚举.iml" filepath="$PROJECT_DIR$/枚举/枚举.iml" />
       <module fileurl="file://$PROJECT_DIR$/泛型/泛型.iml" filepath="$PROJECT_DIR$/泛型/泛型.iml" />
       <module fileurl="file://$PROJECT_DIR$/流程控制/流程控制.iml" filepath="$PROJECT_DIR$/流程控制/流程控制.iml" />
       <module fileurl="file://$PROJECT_DIR$/超市管理系统/超市管理系统.iml" filepath="$PROJECT_DIR$/超市管理系统/超市管理系统.iml" />
+      <module fileurl="file://$PROJECT_DIR$/输入输出/输入输出.iml" filepath="$PROJECT_DIR$/输入输出/输入输出.iml" />
     </modules>
   </component>
 </project>

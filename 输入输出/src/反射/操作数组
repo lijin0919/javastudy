@@ -1,0 +1,18 @@
+reflect包提供了一个Array类
+
+Array对象可以代表数组
+
+程序可以通过使用Array来动态创建数组，操作数组元素
+
+
+static Object newInstance(Class componentType,int...length):
+创建一个具有指定的元素类型、指定纬度的新数组
+
+static xxx getXxx(Object array,int index):返回array数组中第index个元素。
+其中xxx是各种基本数据类型，如果数组元素是引用类型，则该方法变为get（Object array，int index）
+
+
+static void setXxx(Object array,int index,xxx val):将array数组中第index个元素的值
+设为val。其中xxx是各种基本数据类型，如果数组元素是引用类型，则方法变为
+set(Object array,int index,Object val)
+

@@ -1,0 +1,5 @@
+1、使用Class对象的newInstance（）方法来创建该Class对象对应类的实例
+要求该Class对象有默认构造器
+
+2、先使用Class对象获取指定的Constructor对象，再调用Constructor对象
+的newInstance（）方法来创建该Class对戏那个对应类的实例

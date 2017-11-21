@@ -1,0 +1,8 @@
+Java的标准输入输出：
+System.in 键盘
+System.out 显示器
+
+System类
+1.static void setErr(PrinStream err):重定向标准错误输出流
+2.static void setIn(InputStream in):重定向标准输入流
+3.static void setOut(PrintStream out):重定向标准输出流

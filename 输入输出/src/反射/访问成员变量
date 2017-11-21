@@ -1,0 +1,5 @@
+通过Class对象的getFields()或getField（）可以获取
+全部成员变量或指定成员变量
+
+
+

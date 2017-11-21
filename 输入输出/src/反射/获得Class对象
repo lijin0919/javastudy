@@ -1,0 +1,7 @@
+每个类被加载之后，系统生成对应Class对象
+通过Class对象可以访问到JVM中的对应类
+
+获取Class对象：
+1、forName（String name）全限定类名，
+2、类的class属性 代码更安全（编译时检查类是否存在）、性能更好（无需调用方法）
+3、对象的getClass（）方法
