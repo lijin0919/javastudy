@@ -61,7 +61,7 @@ public class Food {
                         if(names[j] == null){  //找到第一个空位置，可以添加订单信息
                             isAdd = true;  //置标志位，可以订餐
                             System.out.print("请输入订餐人姓名：");
-                            String name = input.next();
+                            String name = input.next();//订餐姓名
                             // 显示供选择的菜品信息
                             System.out.println("序号" + "\t" + "菜名"+"\t"+"单价");
                             for (int i = 0; i < dishNames.length; i++) {
@@ -84,12 +84,17 @@ public class Food {
 
                             System.out.print("请输入送餐时间（送餐时间是10点至20点间整点送餐）:");
                             int time = input.nextInt();
+
+
+
                             while (time < 10 || time > 20) {
                                 System.out.print("您的输入有误，请输入10~20间的整数！");
                                 time = input.nextInt();
                             }
+
+
                             System.out.print("请输入送餐地址：");
-                            String address = input.next();
+                            String address = input.next();//输入送餐地址
 
                             //无需添加状态，默认是0，即已预定状态。
                             System.out.println("订餐成功！");
@@ -98,11 +103,11 @@ public class Food {
                             System.out.println("餐费："+sumPrice+"元，送餐费"+deliCharge+"元，总计："+(sumPrice+deliCharge)+"元。");
 
                             //添加数据
-                            names[j] = name;
-                            dishMegs[j] = dishMeg;
-                            times[j] = time;
-                            addresses[j] = address;
-                            sumPrices[j] = sumPrice+deliCharge;
+                            names[j] = name;//送餐人
+                            dishMegs[j] = dishMeg;//菜名
+                            times[j] = time;//时间
+                            addresses[j] = address;//地址
+                            sumPrices[j] = sumPrice+deliCharge;//总价
 
                             break;
                         }

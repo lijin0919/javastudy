@@ -1,0 +1,13 @@
+1、@Target
+修饰一个Annotation定义，
+指定被修饰的Annotation能用于修饰哪些程序单元
+
+2、@Retention
+指定被修饰的注解可以保存多长时间
+RetentionPolicy.CLASS默认值：运行时JVM不可获取注解信息
+RetentionPolicy.RUNTIME:JVM可以获取注解信息
+RetentionPolicy.SOURCE:编译器直接丢弃这种注解
+
+3、@Documented:被修饰的注解将被提取成文档
+
+4、@Interned:被修饰的注解具有继承性

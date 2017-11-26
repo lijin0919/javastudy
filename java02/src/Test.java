@@ -1,9 +1,12 @@
 import javax.swing.*;
+import java.util.Random;
 
 public class Test {
     private JPanel a;
 
     public static void main(String[] args) {
-        System.out.println("aaaa");
+        Random r = new Random(99);
+
+        System.out.println( r.nextInt());
     }
 }
