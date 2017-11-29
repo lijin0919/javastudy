@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <title>
+        <font>
+            <name>mm</name>
+            <size>36</size>
+        </font>
+
+        <font name="mm" size="36"/>
+
+    </title>
+
+</configuration>

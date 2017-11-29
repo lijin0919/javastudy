@@ -11,7 +11,8 @@ public class Client {
         Socket socket = new Socket("127.0.0.1",30000);
 
         //将cocket对应的输入流包装成bufferedreader
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+        BufferedReader bufferedReader =
+                new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
         String io = bufferedReader.readLine();
         System.out.println(io);

@@ -11,7 +11,8 @@ public class LoginServer {
 			Socket socket=null;
 			//监听一直进行中
 			while(true){
-				socket=serverSocket.accept();
+				socket=
+						serverSocket.accept();//获取客户端请求
 				LoginThread LoginThread=new LoginThread(socket);
 				LoginThread.start();
 			}

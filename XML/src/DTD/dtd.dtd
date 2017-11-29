@@ -1,0 +1,5 @@
+<!ELEMENT poems (poem*)>
+<!ELEMENT poem (author,title,content)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT content (#PCDATA)>

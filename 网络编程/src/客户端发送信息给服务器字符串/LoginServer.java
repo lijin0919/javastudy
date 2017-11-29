@@ -20,6 +20,7 @@ public class LoginServer {
 			Socket socket=serverSocket.accept();
 			//3.获得输入流，获得相应的用户请求
 			InputStream is=socket.getInputStream();
+			//包装输出流
 			BufferedReader br=new BufferedReader(new InputStreamReader(is));
 			String info;
 			while((info=br.readLine())!=null){

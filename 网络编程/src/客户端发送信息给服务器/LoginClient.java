@@ -20,6 +20,7 @@ public class LoginClient {
 			Socket socket=new Socket("localhost",5000);
 			//2、通过输出流发送请求
 			OutputStream os=socket.getOutputStream();
+
 			User user=new User("TOM","123456");
 			ObjectOutputStream oos=new ObjectOutputStream(os);
 			oos.writeObject(user);
